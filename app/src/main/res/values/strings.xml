@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task_018</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="productShop">Магазин продуктов!</string>
+    <string name="createShop">Создать магазин</string>
+    <string name="productName">Название продукта</string>
+    <string name="productPrice">Цена продукта</string>
+    <string name="productDescription">Описание продукта</string>
+</resources>

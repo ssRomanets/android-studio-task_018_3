@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mediumPurple"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewEditIV"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="32dp"
+        android:layout_gravity="center"
+        android:src="@drawable/product_ic"
+        />
+
+    <EditText
+        android:id="@+id/productNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:hint="@string/productName"/>
+
+    <EditText
+        android:id="@+id/productPriceET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:hint="@string/productPrice"/>
+
+    <EditText
+        android:id="@+id/productDescriptionET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:hint="@string/productDescription"/>
+
+</LinearLayout>
